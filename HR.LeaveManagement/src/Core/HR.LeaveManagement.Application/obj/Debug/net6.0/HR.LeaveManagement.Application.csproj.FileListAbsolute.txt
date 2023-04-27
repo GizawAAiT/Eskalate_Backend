@@ -1,0 +1,5 @@
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net6.0/HR.LeaveManagement.Application.csproj.AssemblyReference.cache
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net6.0/HR.LeaveManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net6.0/HR.LeaveManagement.Application.AssemblyInfoInputs.cache
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net6.0/HR.LeaveManagement.Application.AssemblyInfo.cs
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net6.0/HR.LeaveManagement.Application.csproj.CoreCompileInputs.cache
