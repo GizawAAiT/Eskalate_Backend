@@ -3,3 +3,13 @@
 /home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net6.0/HR.LeaveManagement.Application.AssemblyInfoInputs.cache
 /home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net6.0/HR.LeaveManagement.Application.AssemblyInfo.cs
 /home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net6.0/HR.LeaveManagement.Application.csproj.CoreCompileInputs.cache
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net6.0/HR.LeaveManagement.Application.deps.json
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net6.0/HR.LeaveManagement.Application.dll
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net6.0/ref/HR.LeaveManagement.Application.dll
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net6.0/HR.LeaveManagement.Application.pdb
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net6.0/HR.LeaveManagement.Domain.dll
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/bin/Debug/net6.0/HR.LeaveManagement.Domain.pdb
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net6.0/HR.LeaveManagement.Application.csproj.CopyComplete
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net6.0/HR.LeaveManagement.Application.dll
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net6.0/ref/HR.LeaveManagement.Application.dll
+/home/gizaw/Documents/A2SV/eskalate/Eskalate_Backend/HR.LeaveManagement/src/Core/HR.LeaveManagement.Application/obj/Debug/net6.0/HR.LeaveManagement.Application.pdb
