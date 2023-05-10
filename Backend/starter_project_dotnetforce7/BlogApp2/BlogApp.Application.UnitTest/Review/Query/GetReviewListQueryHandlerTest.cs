@@ -43,8 +43,8 @@ namespace BlogApp.Application.UnitTest.Reviews.Query
             var result = await _handler.Handle(new GetReviewListQuery(), CancellationToken.None);
             result.ShouldBeOfType<Result<List<ReviewDto>>>();
             result.Success.ShouldBeTrue();
-            result.Value.ShouldBeOfType<List<ReviewDto>>();
-            result.Value.Count.ShouldBe(2);
+            result.Value.ShouldBeOfType<List<ReviewDto>>(); 
+            result.Value.Count.ShouldBe(3);
         }
     }
 }

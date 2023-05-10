@@ -1,6 +1,5 @@
 using AutoMapper;
 using BlogApp.Application.Contracts.Persistence;
-using BlogApp.Application.Features._Indecis.CQRS.Handlers;
 using BlogApp.Application.Features.Reviews.CQRS.Commands;
 using BlogApp.Application.Features.Reviews.CQRS.Handlers;
 using BlogApp.Application.Features.Reviews.DTOs;
@@ -58,19 +57,19 @@ namespace BlogApp.Application.UnitTest.Reviews.Command
             result.Success.ShouldBeTrue();
 
             var reviews = await _mockRepo.Object.ReviewRepository.GetAll();
-            reviews.Count().ShouldBe(1);
+            reviews.Count().ShouldBe(2);
         }
 
         [Fact]
         public async Task Delete_Review_Doesnt_Exist()
         {
 
-            _id  = 0;
+            _id  = -1;
             var result = await _handler.Handle(new DeleteReviewCommand() { Id = _id }, CancellationToken.None);
             result.ShouldBe(null);
         
             var reviews = await _mockRepo.Object.ReviewRepository.GetAll();
-            reviews.Count.ShouldBe(2);
+            reviews.Count.ShouldBe(3);
 
         }
     }

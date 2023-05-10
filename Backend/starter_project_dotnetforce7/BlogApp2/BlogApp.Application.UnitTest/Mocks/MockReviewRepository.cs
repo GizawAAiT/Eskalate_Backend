@@ -30,6 +30,16 @@ namespace BlogApp.Application.UnitTests.Mocks
                     ReviewContent = "Terrible code",
                     BlogId = 2,
                     isResolved = true
+                },
+
+                 new Review
+                {
+
+                    Id = 3,
+                    ReviewerId = 2,
+                    ReviewContent = "Cool! ",
+                    BlogId = 2,
+                    isResolved = true
                 }
             };
 
@@ -43,7 +53,7 @@ namespace BlogApp.Application.UnitTests.Mocks
                 reviews.Add(Review);
                 MockUnitOfWork.changes += 1;
                 return Review;
-            });
+            }); 
 
             mockRepo.Setup(r => r.Update(It.IsAny<Review>())).Callback((Review Review) =>
             {

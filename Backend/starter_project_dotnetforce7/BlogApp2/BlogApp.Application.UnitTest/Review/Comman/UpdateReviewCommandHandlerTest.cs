@@ -62,6 +62,7 @@ namespace BlogApp.Application.UnitTest.Rates.Command
 
         }
 
+
         [Fact]
         public async Task Update_With_Invalid_ReviewContent()
         {
@@ -73,12 +74,12 @@ namespace BlogApp.Application.UnitTest.Rates.Command
 
             result.Errors.ShouldNotBeEmpty();
             var reviews = await _mockRepo.Object.ReviewRepository.GetAll();
-            reviews.Count.ShouldBe(2);
+            reviews.Count.ShouldBe(3);
 
         }
 
     }
 }
 
-
+    
 

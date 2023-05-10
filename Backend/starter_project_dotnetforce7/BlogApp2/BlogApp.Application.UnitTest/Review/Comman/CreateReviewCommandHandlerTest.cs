@@ -55,7 +55,7 @@ namespace BlogApp.Application.UnitTest.Rates.Command
             result.Success.ShouldBeTrue();
 
             var reviews = await _mockRepo.Object.ReviewRepository.GetAll();
-            reviews.Count.ShouldBe(3);
+            reviews.Count.ShouldBe(4);
 
         }
 
@@ -68,7 +68,7 @@ namespace BlogApp.Application.UnitTest.Rates.Command
             result.Success.ShouldBeFalse();
             result.Errors.ShouldNotBeEmpty();
             var reviews = await _mockRepo.Object.ReviewRepository.GetAll();
-            reviews.Count.ShouldBe(2);
+            reviews.Count.ShouldBe(3);
 
         }
     }

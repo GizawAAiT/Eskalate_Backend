@@ -15,8 +15,10 @@ namespace BlogApp.Application.UnitTest.Mocks
         public static Mock<IUnitOfWork> GetUnitOfWork()
         {   var mockUow = new Mock<IUnitOfWork>();
             var mockRateRepo = MockRateRepository.GetRateRepository();
+            var mockTagRepo = MockTagRepository.GetTagRepository();
 
             mockUow.Setup(r => r.RateRepository).Returns(mockRateRepo.Object);
+            mockUow.Setup(t => t.TagRepository).Returns(mockTagRepo.Object);
 
             mockUow.Setup(r => r.Save()).ReturnsAsync(() =>
             {
@@ -25,17 +27,21 @@ namespace BlogApp.Application.UnitTest.Mocks
                 return temp;
             });
 
+    
+            var mockBlogRepo = MockBlogRepository.GetBlogRepository();
+
+            mockUow.Setup(r => r.BlogRepository).Returns(mockBlogRepo.Object);
 
 
-            var mockReviewRepo = MockReviewRepository.GetReviewRepository();
+            var mockReviewRepo = UnitTests.Mocks.MockReviewRepository.GetReviewRepository();
 
             mockUow.Setup(r => r.ReviewRepository).Returns(mockReviewRepo.Object);
-
-     
+  
 
             return mockUow;
-        }
+
     }
 
      
+}
 }

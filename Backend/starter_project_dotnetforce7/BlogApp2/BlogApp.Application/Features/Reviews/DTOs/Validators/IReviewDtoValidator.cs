@@ -12,9 +12,9 @@ namespace BlogApp.Application.Features.Reviews.DTOs.Validators
             .NotEmpty().WithMessage("{PropertyName} is required.")
             .NotNull();
 
-             RuleFor(p => p.ReviewContent)
+            RuleFor(p => p.ReviewContent)
             .NotEmpty().WithMessage("{PropertyName} is required.")
-            .NotNull()
+            .NotNull() 
             .MaximumLength(400).WithMessage("{PropertyName} must not exceed {ComparisonValue} characters.");
 
             RuleFor(p => p.BlogId)

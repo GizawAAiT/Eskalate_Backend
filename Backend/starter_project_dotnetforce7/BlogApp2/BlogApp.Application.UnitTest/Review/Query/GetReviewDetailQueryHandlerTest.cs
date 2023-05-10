@@ -56,7 +56,7 @@ namespace BlogApp.Application.UnitTest.Reviews.Query
         public async Task GetNonExistingReview()
         {
 
-            Id = 0;
+            Id = -1;
             var result = await _handler.Handle(new GetReviewDetailQuery() { Id = Id }, CancellationToken.None);
             result.ShouldBeOfType<Result<ReviewDto>>();
             result.Success.ShouldBeTrue();
